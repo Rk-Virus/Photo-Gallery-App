@@ -79,6 +79,7 @@ export function usePhotoGallery() {
         webviewPath: photo.webPath
       };
     }
+    
   };
 
   const deletePhoto = async (photo: UserPhoto) => {
